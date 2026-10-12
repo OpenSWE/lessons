@@ -1,8 +1,14 @@
-# Starter lessons
+<!-- reviewed-through: <sha> (<YYYY-MM-DD HH:MM>) -->
+# Lessons from merged work
 
-Lessons from a project whose code agents write, review, merge and release. They carry no
-evidence from this repo. A review that finds one here adds the evidence and its date. The rules
-that project had already promoted are in docs/code-standards.md.
+Each review reads the commits merged since the last one for what had to be fixed again, what
+shouldn't have merged and what was verified too thinly. Each lesson is a rule, then why, then
+the evidence. "Seen" counts the days a review found it here. A lesson seen on 3 or more days
+moves into <standards file>.
+
+The lessons marked "inherited" come from another project whose code agents write, review, merge
+and release. They start at Seen 0× and carry no evidence from this repo until a review finds one
+here.
 
 ## Reading the report
 
@@ -178,3 +184,5 @@ filed.**
 - Two sessions that shared one checkout committed each other's staged files under the wrong
   subjects. After you commit, `git show --stat HEAD` lists only your files.
 - Seen 0× (inherited).
+
+## Moved to the standards

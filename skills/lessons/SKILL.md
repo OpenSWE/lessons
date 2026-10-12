@@ -14,12 +14,12 @@ down reaches every later session. A promoted lesson is checked by every review.
 1. **Find the range.** Run `git fetch`, then read the first line of `LESSONS.md`:
    `<!-- reviewed-through: <sha> (<date>) -->`. The range is `<sha>..origin/main`. If the repo has
    no `LESSONS.md`, set it up first:
-   - Create `LESSONS.md` from the template below, and append every lesson in
-     [starter-lessons.md](starter-lessons.md).
    - Find the standards file: the code-standards doc the repo's `AGENTS.md` names. If there is
      none, copy this skill's [docs/code-standards.md](docs/code-standards.md) to the repo's
      `docs/code-standards.md`. If there is one, add each rule from this skill's copy that it does
      not already state.
+   - Copy this skill's [LESSONS.md](LESSONS.md) to the repo root, and put the standards file's
+     path in place of `<standards file>`. Step 5 sets its reviewed-through line.
    - Add both pointer lines to the repo's `AGENTS.md` (or `CLAUDE.md`).
    - Review the last 24 hours.
 
@@ -76,20 +76,6 @@ down reaches every later session. A promoted lesson is checked by every review.
   it fixed."
 - Every claim from this repo cites a sha or issue number a reader can open.
 - Seen counts separate review days. Six commits on one day are Seen 1×.
-
-## LESSONS.md template
-
-```markdown
-<!-- reviewed-through: <sha> (<YYYY-MM-DD HH:MM>) -->
-# Lessons from merged work
-
-Each review reads the commits merged since the last one for what had to be fixed again, what
-shouldn't have merged and what was verified too thinly. Each lesson is a rule, then why, then
-the evidence. "Seen" counts the days a review found it here; an inherited lesson starts at 0×.
-A lesson seen on 3 or more days moves into <standards file>.
-
-## Moved to the standards
-```
 
 ## Pointer lines
 

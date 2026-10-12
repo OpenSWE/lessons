@@ -1,0 +1,23 @@
+{
+  "name": "lessons",
+  "description": "Marketplace for the lessons plugin — a LESSONS.md ledger that turns review findings into code standards.",
+  "owner": {
+    "name": "soulmachine"
+  },
+  "plugins": [
+    {
+      "name": "lessons",
+      "source": "./",
+      "description": "Review a repo's merged work since the last review, record each lesson in LESSONS.md with its evidence, and promote lessons seen on 3 separate days into the code standards.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": [
+        "lessons",
+        "code-review",
+        "standards",
+        "agents",
+        "autonomy"
+      ]
+    }
+  ]
+}

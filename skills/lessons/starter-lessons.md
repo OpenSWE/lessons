@@ -2,7 +2,7 @@
 
 Lessons from a project whose code agents write, review, merge and release. They carry no
 evidence from this repo. A review that finds one here adds the evidence and its date. The rules
-that project had already promoted are in starter-standards.md.
+that project had already promoted are in docs/code-standards.md.
 
 ## Reading the report
 

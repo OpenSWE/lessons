@@ -17,8 +17,9 @@ down reaches every later session. A promoted lesson is checked by every review.
    - Create `LESSONS.md` from the template below, and append every lesson in
      [starter-lessons.md](starter-lessons.md).
    - Find the standards file: the code-standards doc the repo's `AGENTS.md` names. If there is
-     none, create `docs/code-standards.md` from [starter-standards.md](starter-standards.md). If
-     there is one, add each rule from `starter-standards.md` that it does not already state.
+     none, copy this skill's [docs/code-standards.md](docs/code-standards.md) to the repo's
+     `docs/code-standards.md`. If there is one, add each rule from this skill's copy that it does
+     not already state.
    - Add both pointer lines to the repo's `AGENTS.md` (or `CLAUDE.md`).
    - Review the last 24 hours.
 

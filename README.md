@@ -1,5 +1,7 @@
 # lessons
 
+> **Moved.** This skill now lives in [`OpenSWE/skills`](https://github.com/OpenSWE/skills/tree/main/skills/lessons), with its full history. This repo is archived and gets no updates. Install with `npx skills add OpenSWE/skills --skill lessons`, or `/plugin install lessons@openswe` after `/plugin marketplace add OpenSWE/skills`.
+
 A `LESSONS.md` ledger for repos that agents maintain. A review of the work merged since the last review turns each mistake into a lesson, and a lesson seen on 3 separate days becomes a code standard.
 
 It ships as an **[Agent Skill](https://agentskills.io)**: pure markdown, no scripts. It runs on **Claude Code, Codex, Gemini CLI, Cursor**, and any other skills-compatible agent.
